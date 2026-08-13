@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WebGL Image Transitions | Demo 3 | Codrops</title>
+	<meta name="description" content="A set of creative WebGL-powered image transitions" />
+	<meta name="keywords" content="webgl, image transition, distortion, warp, effect, web design" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/fex2uvn.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script>
+	document.documentElement.className = "js";
+	var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+	supportsCssVars() || alert("Please view this in a modern browser that supports CSS Variables.");
+	</script>
+	<script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+</head>
+
+<body class="demo-3">
+	<main>
+		<div class="frame">
+			<div class="frame__title-wrap">
+				<h1 class="frame__title">WebGL Image Transitions</h1>
+			</div>
+			<div class="frame__links">
+				<a href="https://tympanus.net/Tutorials/GooeyImageHoverEffects/">Previous Demo</a>
+				<a href="https://tympanus.net/codrops/?p=44490">Article</a>
+				<a href="https://github.com/akella/webGLImageTransitions">GitHub</a>
+			</div>
+			<div class="frame__info">Click the image</div>
+			<div class="frame__demos">
+				<a href="index.html" class="frame__demo">demo 1</a>
+				<a href="index2.html" class="frame__demo">demo 2</a>
+				<a href="index3.html" class="frame__demo frame__demo--current">demo 3</a>
+				<a href="index4.html" class="frame__demo">demo 4</a>
+				<a href="index5.html" class="frame__demo">demo 5</a>
+				<a href="index6.html" class="frame__demo">demo 6</a>
+				<a href="index7.html" class="frame__demo">demo 7</a>
+				<a href="index8.html" class="frame__demo">demo 8</a>
+			</div>
+		</div>
+		<div id="content" class="content">
+			<div id="slider" data-images='["img/20250510_133037.jpg", "img/20250513_103415.jpg", "img/20250513_133308.jpg", "img/20250513_145305.jpg", "img/20250513_151056.jpg", "img/20250514_130852.jpg", "img/20250514_151348.jpg", "img/20250514_151350.jpg", "img/20250515_101707.jpg", "img/20250515_101931(0).jpg", "img/20250515_203543.jpg", "img/20250516_151832.jpg", "img/20250516_152933.jpg", "img/20250517_095219.jpg", "img/20250517_101841(0).jpg", "img/20250517_174058.jpg", "img/20250518_090005.jpg", "img/20250518_090249.jpg", "img/20250519_124317.jpg", "img/20250519_124927.jpg", "img/20250519_133436.jpg", "img/20250519_172250.jpg", "img/20250520_100847.jpg", "img/20250520_140210.jpg", "img/20250520_141222.jpg", "img/20250520_162332.jpg", "img/20250522_103809.jpg", "img/20250524_124812.jpg", "img/20250525_084134(0).jpg", "img/20250525_093347.jpg", "img/20250525_111359.jpg", "img/20250525_140521.jpg", "img/20250525_145107.jpg", "img/20250526_134410.jpg", "img/img11.jpg"]'>
+			</div>
+		</div>
+	</main>
+	<script src="js/three.js"></script>
+	<script src="js/dat-gui.js"></script>
+	<script src="js/gsap.js"></script>
+	<script src="js/sketch.js"></script>
+	<script src="js/demo3.js"></script>
+	<script src="https://tympanus.net/codrops/adpacks/demoad.js"></script>
+</body>
+
+</html>
